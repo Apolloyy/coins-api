@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/coin.svg">
+    <title>Câmbio de Moedas</title>
+
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="img-left">
+            <img src="images/img1.svg" alt="#" srcset=""> 
+            
+            <div class="text-img">
+
+                <h1 class="wh">O que é um câmbio de moedas?</h1>
+                <p class="parag">Câmbio de moedas é como é chamado a 
+                    <b>conversão de uma moeda para outra usando taxas atualizadas.</b> 
+                    Os usuários podem converter valores e verificar o equivalente na moeda desejada.
+                </p>
+
+            </div>
+
+        </div>
+       
+        <div class="tape">
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="text">
+                <h3 class="title" id="title">Cotações de Moedas (Câmbio)</h3>
+            </div>
+            
+            <div class="coins-convert">
+                <div class="insert">
+                    <label id="valor">Valor
+                        <input type="number" name="coins" id="coins-insert" placeholder="Insira o valor aqui">
+                    </label>
+                </div>
+
+                <div class="selects">
+                    <select name="Coins" id="coins-one">
+                        <option value="Escolha a moeda" disabled selected>Escolha a moeda</option>
+                        <option value="BRL">Real Brasileiro</option>
+                        <option value="USD">Dólar Americano</option>
+                        <option value="GBP">Libra Esterlina</option>
+                        <option value="EUR">Euro</option>
+                    </select>
+
+                <p id="to">=</p>
+
+                    <select name="Coins" id="coins-two">
+                        <option value="Escolha a moeda" disabled selected>Escolha a moeda</option>
+                        <option value="BRL">Real Brasileiro</option>
+                        <option value="USD">Dólar Americano</option>
+                        <option value="GBP">Libra Esterlina</option>
+                        <option value="EUR">Euro</option>
+                    </select>
+
+                </div>
+                
+            </div>
+
+            <div class="button">
+                <button id="calc">Calcular</button>
+            </div>
+            
+            <div class="view-coins" id="view-coins">
+                <h3 id="primary-coin-text"></h3>
+                <p id="other-coin-text"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
